@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[REG] (
+    [RGN]    VARCHAR (2)   NULL,
+    [NAME]   VARCHAR (100) NULL,
+    [CENTER] VARCHAR (50)  NULL,
+    [NAMET]  VARCHAR (100) NULL,
+    UNIQUE NONCLUSTERED ([RGN] ASC)
+);
+

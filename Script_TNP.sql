@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TNP] (
+    [TNP]       VARCHAR (1)  NULL,
+    [FULLNAME]  VARCHAR (50) NULL,
+    [SHORTNAME] VARCHAR (5)  NULL,
+    UNIQUE NONCLUSTERED ([TNP] ASC)
+);
+
